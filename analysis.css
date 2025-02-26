@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f5e1c8;
+}
+
+nav {
+    background: linear-gradient(135deg, #8b4513, #654321); /* Gradient navbar */
+    padding: 15px 0; /* Adjust padding */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Increased gap */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600; /* Slightly lighter bold */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Gold hover color */
+}
+
+.page-header {
+    margin-top: 80px;
+    font-size: 28px;
+    color: #5a3e1b;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #8b4513;
+}
+
+.question {
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fff7ee;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #5a3e1b;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+.back-button, .next-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.back-button:hover, .next-button:hover {
+    background-color: #5a3e1b;
+    transform: scale(1.05);
+}
